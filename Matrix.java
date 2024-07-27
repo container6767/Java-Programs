@@ -21,7 +21,7 @@ class Matrix {
         Matrix result = new Matrix(m, n);
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                result.arr[i][j] = A.arr[i][j] + this.arr[i][j];
+                result.arr[i][j] = A.arr[i][j] - this.arr[i][j];
             }
         }
         return result;

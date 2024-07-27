@@ -4,7 +4,7 @@ public class matrix {
     int arr[][];
     int m, n;
 
-    Matrix(int mm, int nn) {
+    matrix(int mm, int nn) {
         m = mm;
         n = nn;
         arr = new int[m][n];
@@ -47,7 +47,7 @@ public class matrix {
         System.out.println("Enter the number of columns (n):");
         int n = scanner.nextInt();
 
-        Matrix matrix = new Matrix(m, n);
+        matrix matrix = new matrix(m, n);
         matrix.input();
         matrix.display();
     }
