@@ -13,6 +13,7 @@ void read() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         n = scanner.nextInt();
+        scanner.close();
     }
 
     // Method to return the factorial of a number

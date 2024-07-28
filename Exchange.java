@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 public class Exchange {
-    private String sent;
-    private String rev;
-    private int size;
+    String sent;
+    String rev;
+    int size;
 
     // Default constructor
     public Exchange() {
         sent = "";
         rev = "";
-        size = 0;
+        size = -1;
     }
 
     public void readsentence() {
@@ -17,6 +17,7 @@ public class Exchange {
         System.out.println("Enter a sentence terminated by a full stop: ");
         sent = scanner.nextLine();
         size = sent.length();
+        scanner.close();
     }
 
     public void exfirstlast() {

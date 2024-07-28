@@ -15,6 +15,7 @@ class Mixer {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     Mixer mix(Mixer A) {
@@ -66,5 +67,7 @@ class Mixer {
         Mixer merged = obj1.mix(obj2);
         System.out.println("Merged array:");
         merged.display();
+
+        sc.close();
     }
 }

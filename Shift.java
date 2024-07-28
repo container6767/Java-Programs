@@ -18,6 +18,7 @@ class Shift {
                 mat[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
 
     void cyclic(Shift p) {
@@ -47,7 +48,7 @@ class Shift {
         int rows = sc.nextInt();
         System.out.println("Enter the number of columns (max 5):");
         int cols = sc.nextInt();
-
+        sc.close();
         if (rows > 5 || cols > 5) {
             System.out.println("Rows or columns exceed the maximum limit.");
             return;

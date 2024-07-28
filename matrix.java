@@ -18,6 +18,7 @@ public class matrix {
                 arr[i][j] = scanner.nextInt();
             }
         }
+        scanner.close();
     }
 
     int ldigsum() {
@@ -50,5 +51,7 @@ public class matrix {
         matrix matrix = new matrix(m, n);
         matrix.input();
         matrix.display();
+
+        scanner.close();
     }
 }

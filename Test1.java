@@ -8,5 +8,6 @@ public class Test1 {
         Series obj = new Series(number);
         obj.calsum();
         obj.display();
+        sc.close();
     }
 }

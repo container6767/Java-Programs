@@ -16,6 +16,7 @@ class Matrix {
                 arr[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
     Matrix SubMat(Matrix A) {
         Matrix result = new Matrix(m, n);
@@ -42,7 +43,7 @@ class Matrix {
         int rows = sc.nextInt();
         System.out.println("Enter the number of columns (max 25):");
         int cols = sc.nextInt();
-
+        sc.close();
         if (rows > 25 || cols > 25) {
             System.out.println("Matrix size exceeds the maximum limit.");
             return;

@@ -18,6 +18,7 @@ public class Matrix1 {
                 arr[i][j] = scanner.nextInt();
             }
         }
+        scanner.close();
     }
 
     int rdigsum() {
@@ -46,7 +47,7 @@ public class Matrix1 {
         int m = scanner.nextInt();
         System.out.println("Enter the number of columns (n):");
         int n = scanner.nextInt();
-
+        scanner.close();
         Matrix1 matrix = new Matrix1(m, n);
         matrix.input();
         matrix.display();

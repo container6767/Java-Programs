@@ -14,6 +14,7 @@ class Admission {
         System.out.println("Enter 100 admission numbers in ascending order:");
         for (int i = 0; i < 100; i++) {
             Adno[i] = scanner.nextInt();
+            scanner.close();
         }
     }
 
@@ -48,5 +49,6 @@ class Admission {
         } else {
             System.out.println("Admission number not found.");
         }
+        scanner.close();
     }
 }

@@ -37,12 +37,14 @@ public class ASCII
         }
         
         System.out.println("The character with lowest ASCII code in lower case: " 
-                                + lowerCaseLow);
+        + lowerCaseLow);
         System.out.println("The character with highest ASCII code in lower case: " 
-                                + lowerCaseHigh);
+        + lowerCaseHigh);
         System.out.println("The character with lowest ASCII code in upper case: " 
-                                + upperCaseLow);
+        + upperCaseLow);
         System.out.println("The character with highest ASCII code in upper case: " 
-                                + upperCaseHigh);
+        + upperCaseHigh);
+
+        in.close();
     }
 }

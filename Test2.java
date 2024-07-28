@@ -17,5 +17,7 @@ public class Test2 {
 
         Purchase obj = new Purchase(name, qty, rate, pq, pr);
         obj.display();
+
+        sc.close();
     }
 }
