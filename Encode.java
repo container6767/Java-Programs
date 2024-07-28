@@ -16,6 +16,7 @@ class Encode {
         System.out.print("Enter the word: ");
         wrd = in.next().toUpperCase();
         len = wrd.length();
+        in.close();
     }
 
     public void freqVowCon() {
