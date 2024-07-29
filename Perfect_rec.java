@@ -31,9 +31,8 @@ class Perfect_rec {
         System.out.print("Enter a number to check if it is a perfect number: ");
         int number = scanner.nextInt();
 
-        Perfect_rec perfect = new Perfect(number);
+        Perfect_rec perfect = new Perfect_rec(number);
         perfect.check();
-
- 
+        scanner.close(); 
     }
 }
